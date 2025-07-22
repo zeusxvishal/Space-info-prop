@@ -190,86 +190,28 @@ header ul a:hover{
     width: 100%;
     height: auto;
   }
+@media screen and (max-width:700px){
+  header ul{
+    display: none;
+  }
+  .black-hole video{
+    margin-top: -11%;
+  }
+  .hero{
+    flex-direction: column;
+  }
+  .info{
+    bottom: 10px;
+  }
+  .zeus{
+    height: 200px;
+    right: 100px;
+    top:70px;
+  }
+  .container{
+    height: 100%
+    
+    
+    
+    
   
-}
-/*Phone responsive*/
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
-
-  header ul {
-    width: 90%;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-  }
-
-  header ul a {
-    margin: 5px 0;
-    font-size: 16px;
-  }
-
-  .box-icon {
-    gap: 20px;
-    margin-top: 10px;
-  }
-
-  .hero {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-  }
-
-  .info {
-    position: static;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .info div {
-    margin: 0 auto;
-    padding-left: 0;
-  }
-
-  .info h1 {
-    font-size: 35px;
-    line-height: 45px;
-  }
-
-  .info p {
-    font-size: 16px;
-    line-height: 22px;
-    max-width: 100%;
-  }
-
-  .info button {
-    padding: 12px 25px;
-    font-size: 16px;
-  }
-
-  .black-hole video {
-    margin-top: -40%;
-  }
-
-  .zeus {
-    position: static;
-    display: block;
-    margin: 20px auto;
-    height: 250px;
-    border-radius: 50%;
-  }
-
-  .title {
-    padding-left: 10px;
-    text-align: center;
-  }
-
-  .cover {
-    background-color: #bd63cf4d;
-  }
-}
